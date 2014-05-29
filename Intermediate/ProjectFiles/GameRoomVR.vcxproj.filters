@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\GameRoomVR.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{709D8414-0BF3-4B4E-96D9-E47A61A59401}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\GameRoomVR.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\GameRoomVREditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{CDF4E41E-E3AF-4408-A19B-FE175BC7B357}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{78F82F79-7E03-4FE3-80F0-5B1D1146A007}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\HydraPlugin">
+			<UniqueIdentifier>{E5A37AD8-7798-496E-9AB5-AD2D72248FEB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\HydraPlugin\Source">
+			<UniqueIdentifier>{E6822499-3BD7-4883-8BAD-A95B6CEAA94E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\HydraPlugin\Source\HydraPlugin">
+			<UniqueIdentifier>{B2393FCF-EDC1-45EC-A93D-5511BA7DA4AA}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\HydraPlugin\Source\HydraPlugin\HydraPlugin.Build.cs">
+			<Filter>Plugins\HydraPlugin\Source\HydraPlugin</Filter>
+		</None >
+		<Filter Include="Plugins\HydraPlugin\Source\HydraPlugin\Classes">
+			<UniqueIdentifier>{2C899E91-1915-4F1A-83ED-AF69157E2D7D}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\HydraPlugin\Source\HydraPlugin\Classes\HydraPlayerController.h">
+			<Filter>Plugins\HydraPlugin\Source\HydraPlugin\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\HydraPlugin\Source\HydraPlugin\Classes\HydraPluginActor.h">
+			<Filter>Plugins\HydraPlugin\Source\HydraPlugin\Classes</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\HydraPlugin\Source\HydraPlugin\Private">
+			<UniqueIdentifier>{37E1BC23-AD6A-4680-A73E-C2AE896A69BD}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\HydraPlugin\Source\HydraPlugin\Private\FHydraPlugin.cpp">
+			<Filter>Plugins\HydraPlugin\Source\HydraPlugin\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\HydraPlugin\Source\HydraPlugin\Private\FHydraPlugin.h">
+			<Filter>Plugins\HydraPlugin\Source\HydraPlugin\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\HydraPlugin\Source\HydraPlugin\Private\HydraDelegate.cpp">
+			<Filter>Plugins\HydraPlugin\Source\HydraPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\HydraPlugin\Source\HydraPlugin\Private\HydraPlayerController.cpp">
+			<Filter>Plugins\HydraPlugin\Source\HydraPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\HydraPlugin\Source\HydraPlugin\Private\HydraPluginActor.cpp">
+			<Filter>Plugins\HydraPlugin\Source\HydraPlugin\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\HydraPlugin\Source\HydraPlugin\Private\HydraPluginPrivatePCH.h">
+			<Filter>Plugins\HydraPlugin\Source\HydraPlugin\Private</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\HydraPlugin\Source\HydraPlugin\Public">
+			<UniqueIdentifier>{760646DB-C530-48C5-B2AD-B078C5003E0C}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\HydraPlugin\Source\HydraPlugin\Public\HydraDelegate.h">
+			<Filter>Plugins\HydraPlugin\Source\HydraPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\HydraPlugin\Source\HydraPlugin\Public\IHydraPlugin.h">
+			<Filter>Plugins\HydraPlugin\Source\HydraPlugin\Public</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\HydraPlugin\HydraPlugin.uplugin">
+			<Filter>Plugins\HydraPlugin</Filter>
+		</None >
+		<Filter Include="Plugins\HydraPlugin\Resources">
+			<UniqueIdentifier>{50F28081-E235-450D-8392-3BF7EC460BEB}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\HydraPlugin\Resources\Icon128.png">
+			<Filter>Plugins\HydraPlugin\Resources</Filter>
+		</None >
+		<Filter Include="Source\GameRoomVR">
+			<UniqueIdentifier>{5D05ABD6-7692-4029-A143-A3AA6FA7D770}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\GameRoomVR\CharacterHMD.cpp">
+			<Filter>Source\GameRoomVR</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\GameRoomVR\CharacterHMD.h">
+			<Filter>Source\GameRoomVR</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\GameRoomVR\GameRoomVR.Build.cs">
+			<Filter>Source\GameRoomVR</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\GameRoomVR\GameRoomVR.cpp">
+			<Filter>Source\GameRoomVR</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\GameRoomVR\GameRoomVR.h">
+			<Filter>Source\GameRoomVR</Filter>
+		</ClInclude >
+		<Filter Include="Source\GameRoomVR\Resources">
+			<UniqueIdentifier>{00AB7AFB-CA4D-4404-B407-871772745121}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\GameRoomVR\Resources\Windows">
+			<UniqueIdentifier>{A9B28F52-0E1D-4FE8-878E-FA2A5A0E8E80}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\GameRoomVR\Resources\Windows\GameRoomVR.ico">
+			<Filter>Source\GameRoomVR\Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\Source\GameRoomVR\Resources\Windows\GameRoomVR.rc">
+			<Filter>Source\GameRoomVR\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
