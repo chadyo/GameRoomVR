@@ -13,6 +13,6 @@ Engine\Binaries\ThirdParty\PhysX\PhysX-3.3\Win64\VS2013\PhysX3CookingPROFILE_x64
 Engine\Binaries\ThirdParty\PhysX\PhysX-3.3\Win64\VS2013\PhysX3GpuPROFILE_x64.dll
 Engine\Binaries\ThirdParty\PhysX\PhysX-3.3\Win64\VS2013\PhysX3PROFILE_x64.dll
 Engine\Content\Localization\icudt51l.dat
+Engine\Content\Localization\icudt53l.dat
 GameRoomVR\Binaries\Win64\GameRoomVR.exe
 Engine\Build\build.properties
-UE4CommandLine.txt

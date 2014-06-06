@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\GameRoomVR.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{709D8414-0BF3-4B4E-96D9-E47A61A59401}</UniqueIdentifier>
+			<UniqueIdentifier>{857B0333-6A7E-40F5-A3E5-84DCE97B7F73}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\GameRoomVR.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{CDF4E41E-E3AF-4408-A19B-FE175BC7B357}</UniqueIdentifier>
+			<UniqueIdentifier>{61C98605-CC79-4DCE-A5D4-57E30DF33F6C}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEngine.ini">
 			<Filter>Config</Filter>
@@ -21,23 +21,26 @@
 		<None Include="..\..\Config\DefaultGame.ini">
 			<Filter>Config</Filter>
 		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
 		<Filter Include="Plugins">
-			<UniqueIdentifier>{78F82F79-7E03-4FE3-80F0-5B1D1146A007}</UniqueIdentifier>
+			<UniqueIdentifier>{0D9C6CF6-4B71-4921-B354-DFE8EF769CD5}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Plugins\HydraPlugin">
-			<UniqueIdentifier>{E5A37AD8-7798-496E-9AB5-AD2D72248FEB}</UniqueIdentifier>
+			<UniqueIdentifier>{406EC4C5-14DD-428D-A283-C1FB7A3B6B0C}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Plugins\HydraPlugin\Source">
-			<UniqueIdentifier>{E6822499-3BD7-4883-8BAD-A95B6CEAA94E}</UniqueIdentifier>
+			<UniqueIdentifier>{A5D5061A-C69F-4AAB-961E-84658DCF748E}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Plugins\HydraPlugin\Source\HydraPlugin">
-			<UniqueIdentifier>{B2393FCF-EDC1-45EC-A93D-5511BA7DA4AA}</UniqueIdentifier>
+			<UniqueIdentifier>{FC82CA6F-8C22-4596-8A0B-4A9C73E176D3}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Plugins\HydraPlugin\Source\HydraPlugin\HydraPlugin.Build.cs">
 			<Filter>Plugins\HydraPlugin\Source\HydraPlugin</Filter>
 		</None >
 		<Filter Include="Plugins\HydraPlugin\Source\HydraPlugin\Classes">
-			<UniqueIdentifier>{2C899E91-1915-4F1A-83ED-AF69157E2D7D}</UniqueIdentifier>
+			<UniqueIdentifier>{4343F4D1-BDFB-4E9D-B65E-A23019FFC3B7}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Plugins\HydraPlugin\Source\HydraPlugin\Classes\HydraPlayerController.h">
 			<Filter>Plugins\HydraPlugin\Source\HydraPlugin\Classes</Filter>
@@ -46,7 +49,7 @@
 			<Filter>Plugins\HydraPlugin\Source\HydraPlugin\Classes</Filter>
 		</ClInclude >
 		<Filter Include="Plugins\HydraPlugin\Source\HydraPlugin\Private">
-			<UniqueIdentifier>{37E1BC23-AD6A-4680-A73E-C2AE896A69BD}</UniqueIdentifier>
+			<UniqueIdentifier>{5AD01C8D-6621-4320-9F08-52F246C0098F}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Plugins\HydraPlugin\Source\HydraPlugin\Private\FHydraPlugin.cpp">
 			<Filter>Plugins\HydraPlugin\Source\HydraPlugin\Private</Filter>
@@ -67,7 +70,7 @@
 			<Filter>Plugins\HydraPlugin\Source\HydraPlugin\Private</Filter>
 		</ClInclude >
 		<Filter Include="Plugins\HydraPlugin\Source\HydraPlugin\Public">
-			<UniqueIdentifier>{760646DB-C530-48C5-B2AD-B078C5003E0C}</UniqueIdentifier>
+			<UniqueIdentifier>{E44C23BE-DEE1-4ACC-9F6E-1F353161922C}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Plugins\HydraPlugin\Source\HydraPlugin\Public\HydraDelegate.h">
 			<Filter>Plugins\HydraPlugin\Source\HydraPlugin\Public</Filter>
@@ -79,13 +82,13 @@
 			<Filter>Plugins\HydraPlugin</Filter>
 		</None >
 		<Filter Include="Plugins\HydraPlugin\Resources">
-			<UniqueIdentifier>{50F28081-E235-450D-8392-3BF7EC460BEB}</UniqueIdentifier>
+			<UniqueIdentifier>{75EFF4D8-B23C-47DC-BD33-04F20CC959F7}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Plugins\HydraPlugin\Resources\Icon128.png">
 			<Filter>Plugins\HydraPlugin\Resources</Filter>
 		</None >
 		<Filter Include="Source\GameRoomVR">
-			<UniqueIdentifier>{5D05ABD6-7692-4029-A143-A3AA6FA7D770}</UniqueIdentifier>
+			<UniqueIdentifier>{D57F5ED6-8E93-488E-8FED-1907F0390B6E}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\GameRoomVR\CharacterHMD.cpp">
 			<Filter>Source\GameRoomVR</Filter>
@@ -103,10 +106,10 @@
 			<Filter>Source\GameRoomVR</Filter>
 		</ClInclude >
 		<Filter Include="Source\GameRoomVR\Resources">
-			<UniqueIdentifier>{00AB7AFB-CA4D-4404-B407-871772745121}</UniqueIdentifier>
+			<UniqueIdentifier>{2A902CF1-BF15-4AFD-AC89-8456A67213E1}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Source\GameRoomVR\Resources\Windows">
-			<UniqueIdentifier>{A9B28F52-0E1D-4FE8-878E-FA2A5A0E8E80}</UniqueIdentifier>
+			<UniqueIdentifier>{1A3E2805-C6E3-4757-B972-08C7F7293A49}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\GameRoomVR\Resources\Windows\GameRoomVR.ico">
 			<Filter>Source\GameRoomVR\Resources\Windows</Filter>

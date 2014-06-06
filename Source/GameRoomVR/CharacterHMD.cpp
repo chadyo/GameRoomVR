@@ -7,7 +7,6 @@
 ACharacterHMD::ACharacterHMD(const class FPostConstructInitializeProperties& PCIP)
 	: Super(PCIP)
 {
-	DefaultPawnClass = ACharacterHMD::StaticClass();
 }
 
 void ACharacterHMD::BeginPlay()
